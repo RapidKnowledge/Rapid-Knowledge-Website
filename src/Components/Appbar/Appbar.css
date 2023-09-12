@@ -1,0 +1,24 @@
+body {
+    background-color: #000000;
+}
+
+.navtext {
+    color: black;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.navtext:hover {
+    color: white;
+    background-color: #f64c08;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+.navtext1 {
+    color: black;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}

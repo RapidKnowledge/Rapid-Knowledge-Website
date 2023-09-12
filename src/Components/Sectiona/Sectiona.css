@@ -1,0 +1,48 @@
+.seca {
+    background-image: url(../../Assets//Images/seca\ bg.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.txt1 {
+    color: white;
+    padding-top: 250px;
+    display: flex;
+    justify-content: left;
+    align-items: canter;
+    font-size: 40px;
+    padding-left: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.txt2 {
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 30px;
+    word-spacing: 10px;
+    padding-left: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.col-md-4 {
+    padding-top: 275px;
+    color: white;
+}
+
+.btn {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.spn1 {
+    padding-right: 20px;
+}
+
+.spn0 {
+    padding-left: 20px;
+}
