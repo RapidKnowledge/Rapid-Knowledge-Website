@@ -5,8 +5,11 @@ import Sectiona from '../Sectiona/Sectiona'
 const Home = () => {
   return (
     <div>
-      <Appbar />
+      <>
+        <Appbar />
       <Sectiona />
+      <footer />
+      </>
     </div>
   )
 }
