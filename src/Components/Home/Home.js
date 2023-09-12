@@ -1,6 +1,7 @@
 import React from 'react'
 import Appbar from '../Appbar/Appbar'
 import Sectiona from '../Sectiona/Sectiona'
+import Footer from '../Footer/Footer'
 
 const Home = () => {
   return (
@@ -8,7 +9,7 @@ const Home = () => {
       <>
         <Appbar />
       <Sectiona />
-      <footer />
+      <Footer />
       </>
     </div>
   )
