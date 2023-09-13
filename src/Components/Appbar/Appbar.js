@@ -4,12 +4,13 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
+import Profile from "../../Assets/Images/profile-pic.jpg"
 
 const Appbar = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary sticky-top">
       <Container>
-        <Navbar.Brand href="#home"><Link className="navtext1" to="/">Rapid Knowledge  ...<i class="bi bi-rocket-takeoff-fill"></i></Link></Navbar.Brand>
+        <Navbar.Brand href="#home"><Link className="navtext1" to="/"> Knowledge Portal  ...<i class="bi bi-rocket-takeoff-fill"></i></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
           <Nav>
@@ -19,6 +20,8 @@ const Appbar = () => {
             <Nav.Link href="#contact"><Link className="navtext" to="/Contact"><i class="bi bi-person-lines-fill"></i> Contact</Link></Nav.Link>
             
           </Nav>
+          
+
           
         </Navbar.Collapse>
       </Container>

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Sectiona = () => {
   return (
     <div className='seca'>
-        <h1 className='txt1'>Welcome to Rapid Knowledge...<i class="bi bi-rocket-takeoff-fill"></i></h1>
+        <h1 className='txt1'>Welcome to  Knowledge Portal</h1>
       <br></br>
       <h3 className='txt2'>Improve your Knowledge with Us !</h3>
       <div className='txtbtn'>
